@@ -1,0 +1,29 @@
+AxKit::XSP::LDAP version 0.01
+=============================
+
+This module implements a taglib for reading LDAP entries, and intends to
+implement the Cocoon LDAP taglib specified at...
+
+http://opensource.socialchange.net.au/ldaptaglib/docs/
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+Net::LDAP
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2002 Christopher A. Thompson.
+
+You may use this module under the same terms as Perl itself.
+
